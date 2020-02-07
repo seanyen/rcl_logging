@@ -13,7 +13,7 @@ endif()
 
 find_package(ament_cmake_ros REQUIRED)
 find_package(rcutils REQUIRED)
-find_package(spdlog_vendor REQUIRED) # Provides spdlog 1.3.1 on platforms without it.
+# find_package(spdlog_vendor REQUIRED) # Provides spdlog 1.3.1 on platforms without it.
 find_package(spdlog REQUIRED)
 
 include_directories(include)
